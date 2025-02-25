@@ -1,0 +1,6 @@
+artifact_location: file:///h:/MTech_NIT%20Nagpur/Sem%202/Deployment%20Of%20ML%20models/Assignment/Assignment%202/mlruns/196452305770220612
+creation_time: 1740466276102
+experiment_id: '196452305770220612'
+last_update_time: 1740466276102
+lifecycle_stage: active
+name: MNIST_NN_Tracking

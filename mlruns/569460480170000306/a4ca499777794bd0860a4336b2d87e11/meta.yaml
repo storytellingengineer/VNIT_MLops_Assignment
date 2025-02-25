@@ -1,0 +1,15 @@
+artifact_uri: file:///h:/MTech_NIT%20Nagpur/Sem%202/Deployment%20Of%20ML%20models/Assignment/Assignment%202/mlruns/569460480170000306/a4ca499777794bd0860a4336b2d87e11/artifacts
+end_time: 1740428190528
+entry_point_name: ''
+experiment_id: '569460480170000306'
+lifecycle_stage: active
+run_id: a4ca499777794bd0860a4336b2d87e11
+run_name: gregarious-moose-674
+run_uuid: a4ca499777794bd0860a4336b2d87e11
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740428171511
+status: 4
+tags: []
+user_id: prite

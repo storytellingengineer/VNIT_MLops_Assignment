@@ -1,0 +1,15 @@
+artifact_uri: file:///h:/MTech_NIT%20Nagpur/Sem%202/Deployment%20Of%20ML%20models/Assignment/Assignment%202/mlruns/196452305770220612/0cf11559a2334401aa207459ab1d3ca0/artifacts
+end_time: 1740487944978
+entry_point_name: ''
+experiment_id: '196452305770220612'
+lifecycle_stage: active
+run_id: 0cf11559a2334401aa207459ab1d3ca0
+run_name: upset-shad-590
+run_uuid: 0cf11559a2334401aa207459ab1d3ca0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740487884227
+status: 3
+tags: []
+user_id: prite

@@ -1,0 +1,15 @@
+artifact_uri: file:///h:/MTech_NIT%20Nagpur/Sem%202/Deployment%20Of%20ML%20models/Assignment/Assignment%202/mlruns/196452305770220612/b010593660dd4646aa15403bdef98cf3/artifacts
+end_time: 1740467031202
+entry_point_name: ''
+experiment_id: '196452305770220612'
+lifecycle_stage: active
+run_id: b010593660dd4646aa15403bdef98cf3
+run_name: clean-perch-933
+run_uuid: b010593660dd4646aa15403bdef98cf3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740466965176
+status: 3
+tags: []
+user_id: prite

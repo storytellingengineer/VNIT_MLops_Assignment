@@ -1,0 +1,20 @@
+artifact_path: MNIST_NN_Model
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.16
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.18.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.20.2
+model_size_bytes: 1337620
+model_uuid: a9670a38f2944e52af2af7f033b34464
+run_id: b010593660dd4646aa15403bdef98cf3
+utc_time_created: '2025-02-25 07:03:33.901549'
