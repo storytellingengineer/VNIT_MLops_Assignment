@@ -1,6 +1,0 @@
-artifact_location: file:///h:/MTech_NIT%20Nagpur/Sem%202/Deployment%20Of%20ML%20models/Assignment/Assignment%202/mlruns/569460480170000306
-creation_time: 1740428155615
-experiment_id: '569460480170000306'
-last_update_time: 1740428155615
-lifecycle_stage: active
-name: MNIST_SVM_Tuning
