@@ -120,7 +120,7 @@ docker buildx build -t mlops_apis .
 ```
 To run the container with port mapping:
 ```bash
-docker run -p 5000:5000 mlops_apis
+docker run -p 5003:5003 mlops_apis
 ```
 
 ### 6️⃣ Run Docker Compose
