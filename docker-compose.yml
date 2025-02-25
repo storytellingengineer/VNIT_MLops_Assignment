@@ -1,0 +1,28 @@
+services:
+  fast:
+    build: .
+    ports:
+      - "5003:5003"
+    volumes:
+      - .:/app
+    expose:
+        - "5003"
+    networks:
+        - mlops-network
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    depends_on:
+      - fast
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    networks:
+      - mlops-network
+
+
+networks:
+    mlops-network:
+        driver: bridge
