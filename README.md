@@ -81,22 +81,51 @@ docker run -p 8000:8000 digit_recognition
 ---
 
 ## 📌 How to Use
-### 1️⃣ Clone the Repository
+### 1️⃣ Set Up the Environment
+If you are running this project in a specific Conda environment:
 ```bash
-git clone https://github.com/your-repo/handwritten-digit-recognition.git
-cd handwritten-digit-recognition
+conda activate sample-api
 ```
+
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+To create `requirements.txt` file:
+```bash
+pipreqs .
+```
+If the above command does not work, use the force parameter:
+```bash
+pipreqs . --force
+```
+
 ### 3️⃣ Train the Model
 ```bash
 python train.py
 ```
+
 ### 4️⃣ Start FastAPI Server
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+### 5️⃣ Create Docker Image and Container
+```bash
+docker build -t mlops_apis .
+```
+Or using Buildx:
+```bash
+docker buildx build -t mlops_apis .
+```
+To run the container with port mapping:
+```bash
+docker run -p 5000:5000 mlops_apis
+```
+
+### 6️⃣ Run Docker Compose
+```bash
+docker-compose up --build -d
 ```
 
 ---
