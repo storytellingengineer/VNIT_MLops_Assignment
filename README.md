@@ -52,6 +52,13 @@ This project was assigned by **Dr. Ajay** as part of the **Deployment of ML Mode
   - Training loss and accuracy
   - SVC hyperparameter tuning results
 
+### Running MLflow UI
+To start the MLflow UI and track experiments:
+```bash
+mlflow ui --host 0.0.0.0 --port 5003
+```
+Access the MLflow UI at: [http://localhost:5000](http://localhost:5003)
+
 ---
 
 ## 📡 FastAPI Deployment
