@@ -85,7 +85,40 @@ docker build -t digit_recognition .
 docker run -p 8000:8000 digit_recognition
 ```
 
+## Docker Commands for Building, Tagging, and Pushing the Image
+
+### Build the Docker Image
+```sh
+docker buildx build -t komalpaliwal266/mlops:assignment .
+```
+This command builds the Docker image using `buildx` and tags it as `komalpaliwal266/mlops:assignment`.
+
+### Tag the Image
+```sh
+docker tag f778cfe78466 komalpaliwal266/mlops:assignment
+```
+Replace `f778cfe78466` with the actual image ID from the previous build step. This command tags the image with the specified repository and tag name.
+
+### Push the Image to Docker Hub
+```sh
+docker push komalpaliwal266/mlops:assignment
+```
+This command pushes the tagged image to Docker Hub, making it available for pulling.
+
+### Pull the Image from Docker Hub
+```sh
+docker pull komalpaliwal266/mlops:assignment
+```
+This command pulls the image from Docker Hub for use on another system or deployment environment.
+
+### Verify the Image
+```sh
+docker images | grep mlops
+```
+This command checks if the image is available locally after pulling or building.
+
 ---
+
 
 ## 📌 How to Use
 ### 1️⃣ Set Up the Environment
